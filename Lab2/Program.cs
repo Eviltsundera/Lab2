@@ -36,6 +36,10 @@ namespace Lab2
             Console.WriteLine("Nearest:");
             Console.WriteLine(MainCol.NearestToAverage);
             
+            Console.WriteLine("...\n");
+            
+            Console.WriteLine(MainCol.ToLongString());
+            
             Console.WriteLine("Apperars everywhere:");
             var a = MainCol.AppearEveryWhere;
             foreach (var item in a)

@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f565ee5-f5b3-4378-bf7c-bb657c3aab0e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/V2DataMainCollection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/V2DataMainCollection.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab2/bin/Debug/Lab2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/bin/Debug/Lab2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab2/bin/Debug/Lab2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/bin/Debug/Lab2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/obj/Debug/Lab2.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/obj/Debug/Lab2.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab2/obj/Debug/Lab2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/obj/Debug/Lab2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab2/obj/Debug/Lab2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/obj/Debug/Lab2.pdb" afterDir="false" />
     </list>
@@ -34,9 +30,9 @@
       <option value="$PROJECT_DIR$/Lab2/V2DataCollection.cs" />
       <option value="$PROJECT_DIR$/Lab2/data2.txt" />
       <option value="$PROJECT_DIR$/Lab2/V2DataOnGrid.cs" />
-      <option value="$PROJECT_DIR$/Lab2/V2DataMainCollection.cs" />
       <option value="$PROJECT_DIR$/Lab2/data.txt" />
       <option value="$PROJECT_DIR$/Lab2/Program.cs" />
+      <option value="$PROJECT_DIR$/Lab2/V2DataMainCollection.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m8IW7bu4Oa8o2MIvSbzolWPn36" />
@@ -88,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608868824384</updated>
       <workItem from="1608868836120" duration="11355000" />
-      <workItem from="1608949651588" duration="1200000" />
+      <workItem from="1608949651588" duration="1527000" />
     </task>
     <servers />
   </component>
@@ -111,24 +107,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Lab2/Program.cs</url>
-          <line>39</line>
-          <properties documentPath="$PROJECT_DIR$/Lab2/Program.cs" initialLine="39" containingFunctionPresentation="method 'Main'">
-            <startOffsets>
-              <option value="1535" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1567" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
