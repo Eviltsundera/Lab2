@@ -6,12 +6,12 @@ namespace Lab2
     {
         public static void Main(string[] args)
         {
-            V2DataCollection obj1 = new V2DataCollection("/Users/danilka/RiderProjects/Lab2/Lab2/data.txt");
+            V2DataCollection obj1 = new V2DataCollection("data.txt");
             Console.WriteLine("Object created from file\n");
             Console.WriteLine(obj1.ToLongString());
             Console.WriteLine("...\n");
 
-            V2DataOnGrid obj2 = new V2DataOnGrid("/Users/danilka/RiderProjects/Lab2/Lab2/data2.txt");
+            V2DataOnGrid obj2 = new V2DataOnGrid("data2.txt");
             Console.WriteLine("Object created from file 2\n");
             Console.WriteLine(obj2.ToLongString());
             Console.WriteLine("...\n");
@@ -23,10 +23,25 @@ namespace Lab2
             
             Console.WriteLine(MainCol.ToLongString());
             
+            
+            MainCol = new V2DataMainCollection();
+            MainCol.NewAddDefaults();
+            
             Console.WriteLine("...\n");
+            Console.WriteLine("Average\nLINQ: ");
             Console.WriteLine(MainCol.AverageAbsValue);
+            Console.WriteLine("Stupid:");
+            Console.WriteLine(MainCol.StupidAverage());
+            
+            Console.WriteLine("Nearest:");
             Console.WriteLine(MainCol.NearestToAverage);
-            Console.WriteLine(MainCol.AppearEveryWhere);
+            
+            Console.WriteLine("Apperars everywhere:");
+            var a = MainCol.AppearEveryWhere;
+            foreach (var item in a)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }

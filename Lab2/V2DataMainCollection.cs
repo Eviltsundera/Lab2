@@ -62,7 +62,7 @@ namespace Lab2
             return res;
         }
         
-        public void AddDefaults() {
+        public void  AddDefaults() {
             Random rnd = new Random();
             int num = 3 + rnd.Next(0, 7);
             int numOnGrid = rnd.Next(1, num - 1);
@@ -86,6 +86,29 @@ namespace Lab2
                     (float)rnd.NextDouble() * maxValFloat, minVal, maxVal);
                 DataItems.Add(objCol);
             }
+        }
+
+        public void NewAddDefaults()
+        {
+            DataItems.Add(new V2DataCollection("data.txt"));
+            DataItems.Add(new V2DataOnGrid("data2.txt"));
+        }
+
+        public double StupidAverage()
+        {
+            double ans = 0;
+            int counter = 0;
+
+            foreach (var v2data in DataItems)
+            {
+                foreach (var item in v2data)
+                {
+                    counter++;
+                    ans += item.Field.Magnitude;
+                }
+            }
+
+            return ans / counter;
         }
         
         public double AverageAbsValue {

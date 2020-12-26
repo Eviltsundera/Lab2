@@ -4,11 +4,24 @@
     <projectFile>Lab2/Lab2.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f565ee5-f5b3-4378-bf7c-bb657c3aab0e" name="Default Changelist" comment="" />
+    <list default="true" id="6f565ee5-f5b3-4378-bf7c-bb657c3aab0e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/V2DataMainCollection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/V2DataMainCollection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/bin/Debug/Lab2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/bin/Debug/Lab2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/bin/Debug/Lab2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/bin/Debug/Lab2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/obj/Debug/Lab2.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/obj/Debug/Lab2.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/obj/Debug/Lab2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/obj/Debug/Lab2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/obj/Debug/Lab2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/obj/Debug/Lab2.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/32B85139-1A04-4685-A059-8266AE6CB842/5C/SelectMany.cs" root0="SKIP_HIGHLIGHTING" />
@@ -19,14 +32,15 @@
       <option value="$PROJECT_DIR$/Lab2/DataItem.cs" />
       <option value="$PROJECT_DIR$/Lab2/V2Data.cs" />
       <option value="$PROJECT_DIR$/Lab2/V2DataCollection.cs" />
-      <option value="$PROJECT_DIR$/Lab2/data.txt" />
       <option value="$PROJECT_DIR$/Lab2/data2.txt" />
-      <option value="$PROJECT_DIR$/Lab2/V2DataMainCollection.cs" />
-      <option value="$PROJECT_DIR$/Lab2/Program.cs" />
       <option value="$PROJECT_DIR$/Lab2/V2DataOnGrid.cs" />
+      <option value="$PROJECT_DIR$/Lab2/V2DataMainCollection.cs" />
+      <option value="$PROJECT_DIR$/Lab2/data.txt" />
+      <option value="$PROJECT_DIR$/Lab2/Program.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m8IW7bu4Oa8o2MIvSbzolWPn36" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -73,15 +87,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608868824384</updated>
-      <workItem from="1608868836120" duration="10996000" />
+      <workItem from="1608868836120" duration="11355000" />
+      <workItem from="1608949651588" duration="1200000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
@@ -89,17 +116,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Lab2/V2DataOnGrid.cs</url>
-          <line>30</line>
-          <properties documentPath="$PROJECT_DIR$/Lab2/V2DataOnGrid.cs" initialLine="30" containingFunctionPresentation="property 'Current'">
+          <url>file://$PROJECT_DIR$/Lab2/Program.cs</url>
+          <line>39</line>
+          <properties documentPath="$PROJECT_DIR$/Lab2/Program.cs" initialLine="39" containingFunctionPresentation="method 'Main'">
             <startOffsets>
-              <option value="795" />
+              <option value="1535" />
             </startOffsets>
             <endOffsets>
-              <option value="863" />
+              <option value="1567" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
